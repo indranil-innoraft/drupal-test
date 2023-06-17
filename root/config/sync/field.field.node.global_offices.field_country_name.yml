@@ -1,0 +1,29 @@
+uuid: 46416560-ce46-4dbf-8228-e93258f3fc37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country_name
+    - node.type.global_offices
+    - taxonomy.vocabulary.country
+id: node.global_offices.field_country_name
+field_name: field_country_name
+entity_type: node
+bundle: global_offices
+label: 'country name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

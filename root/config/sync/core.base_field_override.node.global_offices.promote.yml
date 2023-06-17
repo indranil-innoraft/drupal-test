@@ -1,0 +1,22 @@
+uuid: be5973a5-21b8-4b0e-99aa-d9752ad0a43b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.global_offices
+id: node.global_offices.promote
+field_name: promote
+entity_type: node
+bundle: global_offices
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

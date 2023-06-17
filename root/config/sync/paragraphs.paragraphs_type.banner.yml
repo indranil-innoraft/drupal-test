@@ -1,0 +1,10 @@
+uuid: a80e8665-919b-4915-a219-631ac138a22c
+langcode: en
+status: true
+dependencies: {  }
+id: banner
+label: banner
+icon_uuid: null
+icon_default: null
+description: "service's banner."
+behavior_plugins: {  }

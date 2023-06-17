@@ -1,0 +1,50 @@
+uuid: d861c245-24ab-4d22-baeb-711f71a03fa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.global_offices.field_address
+    - field.field.node.global_offices.field_country_logo
+    - field.field.node.global_offices.field_country_name
+    - node.type.global_offices
+  module:
+    - address
+    - image
+    - user
+id: node.global_offices.default
+targetEntityType: node
+bundle: global_offices
+mode: default
+content:
+  field_address:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_country_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_country_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

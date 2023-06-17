@@ -1,0 +1,22 @@
+uuid: 30634188-9d86-4daf-b575-53e398b36013
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: O8dkZjNAXs0ZWLtmhmfFUWDVJCJj1wSQ7Xy1IqEDtPU
+id: bones_theme_messages
+theme: bones_theme
+region: content_top
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

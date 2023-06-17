@@ -1,0 +1,37 @@
+uuid: b5652da9-2678-4ced-a409-e8c3c06a6445
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grid
+    - node.type.services
+    - paragraphs.paragraphs_type.multiple_images_and_text
+  module:
+    - entity_reference_revisions
+id: node.services.field_grid
+field_name: field_grid
+entity_type: node
+bundle: services
+label: grid
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      multiple_images_and_text: multiple_images_and_text
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 5
+        enabled: false
+      cards:
+        weight: 4
+        enabled: false
+      multiple_images_and_text:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

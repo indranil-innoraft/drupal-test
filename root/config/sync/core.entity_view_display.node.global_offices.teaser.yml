@@ -1,0 +1,26 @@
+uuid: bf4f490d-cda3-4b7f-8594-3b07e122b7ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.global_offices.field_address
+    - field.field.node.global_offices.field_country_logo
+    - field.field.node.global_offices.field_country_name
+    - node.type.global_offices
+  module:
+    - user
+id: node.global_offices.teaser
+targetEntityType: node
+bundle: global_offices
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_address: true
+  field_country_logo: true
+  field_country_name: true

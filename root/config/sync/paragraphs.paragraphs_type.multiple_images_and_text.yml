@@ -1,0 +1,10 @@
+uuid: dec40b4f-1e9a-4efd-972b-badf3fa3a5a8
+langcode: en
+status: true
+dependencies: {  }
+id: multiple_images_and_text
+label: 'multiple images and text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

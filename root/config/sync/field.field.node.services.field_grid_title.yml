@@ -1,0 +1,19 @@
+uuid: e42c114f-dc54-46ba-a953-d6e5ef36a346
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grid_title
+    - node.type.services
+id: node.services.field_grid_title
+field_name: field_grid_title
+entity_type: node
+bundle: services
+label: 'grid title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

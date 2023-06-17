@@ -1,0 +1,19 @@
+uuid: 4d6d3469-3c46-40ce-8202-bd14819d9556
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_middle_image
+    - node.type.services
+id: node.services.field_content_middle_image
+field_name: field_content_middle_image
+entity_type: node
+bundle: services
+label: 'content middle image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

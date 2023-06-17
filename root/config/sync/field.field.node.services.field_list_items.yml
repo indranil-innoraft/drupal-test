@@ -1,0 +1,21 @@
+uuid: a4ec6164-a0b0-4f45-b0ce-916c552a3c1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_items
+    - node.type.services
+  module:
+    - text
+id: node.services.field_list_items
+field_name: field_list_items
+entity_type: node
+bundle: services
+label: 'list items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

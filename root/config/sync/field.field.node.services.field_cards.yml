@@ -1,0 +1,37 @@
+uuid: b8033422-5a58-4ac4-b2af-021a44aa0c52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cards
+    - node.type.services
+    - paragraphs.paragraphs_type.cards
+  module:
+    - entity_reference_revisions
+id: node.services.field_cards
+field_name: field_cards
+entity_type: node
+bundle: services
+label: cards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cards: cards
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 5
+        enabled: false
+      cards:
+        weight: 4
+        enabled: true
+      multiple_images_and_text:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

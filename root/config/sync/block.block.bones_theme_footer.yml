@@ -1,0 +1,27 @@
+uuid: 426efacb-0ab3-4cea-a6f6-369acc7099ef
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: fQg9mj_lN-KYK9aeJDJ0Lz-sknlhYl8-24R1snYbXxI
+id: bones_theme_footer
+theme: bones_theme
+region: footer
+weight: -2
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

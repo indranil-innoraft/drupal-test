@@ -1,0 +1,50 @@
+uuid: 3da2260a-209a-4000-8de4-ba9b94de9754
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.services.field_cards
+    - field.field.node.services.field_cards_heading
+    - field.field.node.services.field_contact_us
+    - field.field.node.services.field_content_bottom_image
+    - field.field.node.services.field_content_bottom_title
+    - field.field.node.services.field_content_middle_image
+    - field.field.node.services.field_content_middle_images
+    - field.field.node.services.field_content_middle_title
+    - field.field.node.services.field_grid
+    - field.field.node.services.field_grid_title
+    - field.field.node.services.field_highlited_body
+    - field.field.node.services.field_highlited_title
+    - field.field.node.services.field_link_to_other_page
+    - field.field.node.services.field_list_items
+    - field.field.node.services.field_top_banner
+    - node.type.services
+  module:
+    - user
+id: node.services.teaser
+targetEntityType: node
+bundle: services
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cards: true
+  field_cards_heading: true
+  field_contact_us: true
+  field_content_bottom_image: true
+  field_content_bottom_title: true
+  field_content_middle_image: true
+  field_content_middle_images: true
+  field_content_middle_title: true
+  field_grid: true
+  field_grid_title: true
+  field_highlited_body: true
+  field_highlited_title: true
+  field_link_to_other_page: true
+  field_list_items: true
+  field_top_banner: true
